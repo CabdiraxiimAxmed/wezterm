@@ -2,9 +2,12 @@ local wezterm = require'wezterm'
 
 return {
   --hide_tab_bar_if_only_one_tab = true,
-  window_background_opacity = 0.9,
   enable_tab_bar = false;
-  --window_background_image = "~/Downloads/Snippet.png",
+  window_background_image = '/home/abdirahimahmed/Downloads/hannah-troupe-0FQneB1VjaM-unsplash.jpg',
+    window_background_image_hsb = {
+    -- Darken the background image by reducing it to 1/3rd
+    brightness = .5,
+  },
 
   font = wezterm.font_with_fallback({
     "Operator Mono Lig",
@@ -27,7 +30,7 @@ return {
   -- some custom styled
   allow_square_glyphs_to_overflow_width = "Always",
   font_antialias = "Subpixel",
-  color_scheme = "Catppuccin Frappe",
+  --color_scheme = "Catppuccin Frappe",
 
   window_frame = {
     -- The font used in the tab bar.
