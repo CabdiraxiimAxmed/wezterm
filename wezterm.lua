@@ -3,10 +3,10 @@ local wezterm = require'wezterm'
 return {
   --hide_tab_bar_if_only_one_tab = true,
   enable_tab_bar = false;
-  window_background_image = '/home/abdirahimahmed/Downloads/hannah-troupe-0FQneB1VjaM-unsplash.jpg',
+  window_background_image = '/home/abdirahimahmed/.config/wezterm/images/guillermo2.jpg',
     window_background_image_hsb = {
     -- Darken the background image by reducing it to 1/3rd
-    brightness = .5,
+    brightness = .2,
   },
 
   font = wezterm.font_with_fallback({
@@ -24,7 +24,7 @@ return {
     bottom = 20,
   },
 
-  line_height = 1.18,
+  line_height = 1.19,
   harfbuzz_features = { "ss13" },
 
   -- some custom styled
